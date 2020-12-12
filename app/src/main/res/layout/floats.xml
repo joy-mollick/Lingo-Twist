@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_gravity="center"
+        android:id="@+id/gm"
+        android:src="@drawable/gmail"
+        android:layout_marginLeft="40dp"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:onClick="True"
+        />
+    <ImageButton
+        android:id="@+id/fb"
+        android:layout_gravity="center"
+        android:src="@drawable/fb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+    <ImageView
+        android:id="@+id/wp"
+        android:layout_gravity="center"
+        android:src="@drawable/whatsapp"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:onClick="True"
+        />
+    <ImageView
+        android:id="@+id/cl"
+        android:layout_gravity="center"
+        android:src="@drawable/call"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:onClick="True"
+        />
+    <ImageView
+        android:id="@+id/ins"
+        android:layout_gravity="center"
+        android:src="@drawable/instragam"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:onClick="True"
+        />
+
+</LinearLayout>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Contact_of_friends"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/flot"
+        android:padding="15dp">
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|right"
+            android:layout_margin="16dp"
+            android:src="@drawable/fb"
+            android:id="@+id/fb"
+            android:background="@android:color/transparent"
+           />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|right"
+            android:layout_margin="16dp"
+            android:id="@+id/instragam"
+            android:src="@drawable/instragam"
+            android:background="@android:color/transparent"
+            />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|right"
+            android:layout_margin="16dp"
+            android:src="@drawable/gmail"
+            android:id="@+id/gmail"
+            android:background="@android:color/transparent"
+            />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|right"
+            android:layout_margin="16dp"
+            android:src="@drawable/call"
+            android:id="@+id/call"
+            android:background="@android:color/transparent"
+            />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|right"
+            android:src="@drawable/whatsapp"
+            android:id="@+id/whatsapp"
+            android:background="@android:color/transparent"
+            android:layout_margin="16dp"
+            />
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/myfriendcntct"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="dd"
+        android:textSize="18sp"
+        android:textColor="#222"/>
+
+</LinearLayout>
